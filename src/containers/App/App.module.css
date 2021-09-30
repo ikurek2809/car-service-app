@@ -1,0 +1,16 @@
+.logo {
+    margin-left: 100px;
+    padding: 15px;
+    width: 300px;
+    height: auto;
+}
+
+.start-area {
+    padding: 15px;
+    margin: auto;
+}
+
+.close-button {
+    float: right;
+    cursor: pointer;
+}
