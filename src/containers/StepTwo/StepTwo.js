@@ -8,6 +8,10 @@ import Checkbox from "@mui/material/Checkbox";
 import TextField from "@mui/material/TextField/TextField";
 import Typography from "@mui/material/Typography";
 
+import classes from "./StepTwo.module.css";
+
+
+
 const StepTwo = props => {
 
   const [services, setServices] = useState([
@@ -148,7 +152,7 @@ const StepTwo = props => {
         </FormGroup>
       </Grid>
       <Grid align={"right"} item xs={12}>
-        {showCouponLink && !couponValid && <Typography onClick={onCouponLinkClick}>Imam Kupon</Typography>}
+        {showCouponLink && !couponValid && <Typography color={"primary"} className={classes["coupon-link"]} onClick={onCouponLinkClick}>Imam Kupon</Typography>}
         {
           showCouponInput
           &&

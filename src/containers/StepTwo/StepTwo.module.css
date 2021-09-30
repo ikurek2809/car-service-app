@@ -1,3 +1,7 @@
 .checkboxes {
     display: flex;
 }
+
+.coupon-link {
+    cursor: pointer;
+}
