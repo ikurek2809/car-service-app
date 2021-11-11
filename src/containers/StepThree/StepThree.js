@@ -122,7 +122,7 @@ const StepThree = props => {
             <Button variant="contained" onClick={onBackButtonClick}>Nazad</Button>
           </Grid>
           <Grid item xs={2}>
-            <Button variant="contained" onClick={onNextButtonClick}>Dalje</Button>
+            <Button  variant="contained" onClick={onNextButtonClick}>Dalje</Button>
           </Grid>
         </Grid>
       </Grid>

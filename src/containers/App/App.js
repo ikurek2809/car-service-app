@@ -105,10 +105,7 @@ const App = () => {
     <Grid container spacing={2}>
       <Grid item xs={12}>
         <Grid container spacing={2}>
-          <Grid item xs={4}>
-            <img className={classes.logo} src={logo} alt="tokic"/>
-          </Grid>
-          <Grid item xs={8}>
+          <Grid align="center" item xs={12}>
             <Grid container spacing={0}>
               <Grid item xs={12}>
                 <Typography>

@@ -116,7 +116,7 @@ const StepTwo = props => {
   };
 
   const onCouponSubmit = () => {
-    if (coupon === "Tokić123") {
+    if (coupon === "Kupon") {
       setCouponValid(true);
       setShowCouponInput(false);
       setShowCouponError(false);
